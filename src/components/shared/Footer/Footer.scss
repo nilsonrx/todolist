@@ -1,0 +1,21 @@
+@import '../../../styles/palettes.scss';
+@import '../../../styles/palettesglobal.scss';
+
+.footer {
+    width: 100%;
+    background-color: $color-primary;
+    color: #fff;
+    height: 50px;
+    display:flex;
+    align-self: center;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    
+    .container {
+        @include container;
+    }
+
+    
+
+}

@@ -1,0 +1,15 @@
+@import '../../styles/palettes.scss';
+@import'../../styles/palettesglobal.scss';
+
+.content {
+    @include container;
+    flex:1;
+    &-title {
+        color: $color-primary;
+        font-size: 36px;
+        text-transform: uppercase;
+        text-align: center;
+
+    }
+    
+}

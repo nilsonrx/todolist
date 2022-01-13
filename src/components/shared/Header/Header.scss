@@ -1,0 +1,31 @@
+@import '../../../styles/palettes.scss';
+@import '../../../styles/palettesglobal.scss';
+
+.header {
+    
+    background-color: $color-secondary;
+    color: $color-secondary;
+    .container{
+        @include container;
+    }
+    &-list {
+      padding-left: 1rem;
+      list-style: none;
+     display: flex;
+     align-items: flex-start;
+     justify-content: flex-start;
+        
+        &-item {
+            
+         color: $color-sucess;
+         padding: 1% 2%;
+         text-decoration: none;
+         cursor: pointer;
+         transition: 0.4s all;
+
+            &:hover {
+                color: #fff ;
+            }
+        }
+    }
+}

@@ -1,0 +1,31 @@
+@import '../../styles/palettes.scss';
+@import'../../styles/palettesglobal.scss';
+
+
+.card{
+    @include container;
+    width: auto;
+    height:40%;
+    display: flex;
+    align-items: center;
+    margin-top: 6%;
+    
+    &-img {
+        height: auto;
+        width: 30%;
+        .img{
+            height: 100%;
+            width: 100%;
+        }
+    }
+
+    &-info{
+        width: 48% ;
+        &-text{
+            font-size: 20px;
+            line-height: 25px;
+            color: rgb(81, 190, 172) ;
+        }
+    }
+    
+}
